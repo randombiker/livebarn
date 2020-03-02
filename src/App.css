@@ -1,0 +1,140 @@
+body {
+  background-color: rgb(215, 226, 233);
+}
+
+#data {
+  display: block;
+  float: left;
+}
+#empty {
+  display: block;
+  float: left;
+}
+
+.myButton {
+  display: block;
+  color: #3e5b9d;
+  width: 100px;
+  bottom: 15px;
+  background: transparent;
+}
+
+.myButton:hover {
+  color: black;
+}
+
+.myButton:focus {
+  background: #3e5b9d;
+  color: black;
+}
+.btn {
+  background: #3e5b9d;
+  color: white;
+  margin: 3px;
+}
+.btn2 {
+  width: 100px;
+  border: transparent;
+  background: none;
+  color: #3e5b9d;
+}
+.btn2focus {
+  color: black;
+  border: 2px 2px 0 2px solid;
+  background: transparent;
+}
+.btn2:hover {
+  background: lightgray;
+}
+
+.container {
+  position: relative;
+  margin-top: 20px;
+  width: 1200px;
+  height: 700px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn-group-vertical {
+  margin-top: 0;
+  margin-left: 12px;
+}
+
+.line {
+  height: 750px;
+  margin-right: 5px;
+  border-right: 1px solid #333;
+}
+
+.searchBox {
+  margin-left: 20px;
+  width: 80%;
+  height: 30px;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  height: 30px;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.surface {
+  border: 1px solid rgb(158, 156, 156);
+  width: 70%;
+  max-height: 660px;
+  margin-right: 5px;
+  overflow: auto;
+}
+
+.detail {
+  border: 1px solid rgb(158, 156, 156);
+  color: white;
+  text-align: center;
+  background-color: #3e5b9d;
+  width: 25%;
+  height: 700px;
+  margin-top: -40px;
+  overflow: auto;
+}
+.table {
+  font-size: 14px;
+  font-weight: 100;
+  margin: 0;
+}
+
+#description {
+  display: none;
+  flex-wrap: wrap;
+  border-top: 1px solid white;
+  text-align: left;
+}
+.matched {
+  text-align: center;
+  margin-left: -25%;
+}
+
+.tableStyleCol1 {
+  width: 45%;
+}
+.tableStyleCol2 {
+  width: 25%;
+}
+.tableStyleCol3 {
+  width: 20%;
+}
+.tableStyleCol4 {
+  width: 10%;
+}
+.form-control {
+  width: 98%;
+}
