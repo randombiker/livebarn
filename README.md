@@ -1,1 +1,3 @@
- Hardcoded "detail" column info. I wasn't able to get the data from the dynamic table. For the same reason, I was unable to finish the "search" part.
+ Generating dynamic table from data API fetched with React Async
+ 
+ Work on progress. I didn't yet get the data from the dynamic table and I didn't finish the "search" part.
